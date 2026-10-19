@@ -34,4 +34,5 @@
 
 The processed rasters use a common projected grid where applicable, enabling spatial alignment for subsequent modelling.
 
-> **Note:** Commiting Large source and processed datasets did not seem to make sense and hence are excluded from version control. Refer to the original data providers and preprocessing workflow to reproduce them.
+> [!NOTE]
+**Caveat** Commiting Large source and processed datasets did not seem to make sense and hence are excluded from version control. Refer to the original data providers and preprocessing workflow to reproduce them.
