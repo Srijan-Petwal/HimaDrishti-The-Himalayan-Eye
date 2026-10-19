@@ -1,0 +1,33 @@
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Large geospatial source and generated data
+src/uknd/data/raw/**
+src/uknd/data/processed/**
+
+# QGIS temporary and backup files
+*.qgz~
+*.qgs~
+*.gpkg-wal
+*.gpkg-shm
+
+# Model outputs and experiment artifacts
+models/*.pkl
+models/*.joblib
+checkpoints/
+outputs/
+runs/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
