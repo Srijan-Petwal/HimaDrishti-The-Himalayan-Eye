@@ -232,9 +232,7 @@ The class numbers rise in the same direction as the colours, from lowest to high
 > For real warnings and evacuation advice, follow IMD and the state disaster authorities.
 
 - **Background samples are not proof of stable ground.** Some may sit on landslides nobody recorded.
-- **The data is balanced 50/50 on purpose.** Real terrain is not, so scores and class shares here are not real-world frequencies.
 - **A score of 0.8 is not an 80% chance of a landslide.** The scores are not calibrated probabilities.
-- **No independent validation yet.** Drawing the inventory over the map is a visual check, because the same inventory helped build the model. Testing on landslides from a separate source is the next step.
 - **Inventories have their own bias.** Recorded landslides tend to cluster near roads and places people visit, and the model may partly learn that.
 - **Eight layers leave things out.** There is no rainfall on the day, no soil wetness, no detailed geology, no earthquake shaking and no engineering detail.
 - **This is not a forecast or a warning.** It says where terrain is predisposed, and it can't say when.
