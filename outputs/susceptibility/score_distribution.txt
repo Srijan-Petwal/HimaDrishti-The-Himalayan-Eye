@@ -1,0 +1,26 @@
+XGBoost susceptibility score distribution
+Raster: E:\DS\uknd\outputs\susceptibility\uknd_xgboost_susceptibility.tif
+Valid pixels: 66,012,548
+
+Percentiles:
+P  0: 0.000820
+P  1: 0.001927
+P  5: 0.002630
+P 10: 0.003331
+P 20: 0.005305
+P 25: 0.006918
+P 40: 0.020048
+P 50: 0.056604
+P 60: 0.116785
+P 75: 0.266228
+P 80: 0.346057
+P 90: 0.597712
+P 95: 0.786100
+P 99: 0.958141
+P100: 0.998518
+
+Threshold exceedance:
+Score >= 0.2: 20,082,735 pixels (30.42%)
+Score >= 0.4: 11,416,039 pixels (17.29%)
+Score >= 0.6: 6,554,896 pixels (9.93%)
+Score >= 0.8: 3,093,362 pixels (4.69%)

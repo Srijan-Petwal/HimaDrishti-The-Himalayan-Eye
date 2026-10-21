@@ -11,7 +11,7 @@ __pycache__/
 !.env.example
 
 # Large geospatial source and generated data
-src/uknd/data/raw/**
+src/uknd/data/
 
 
 # QGIS temporary and backup files
@@ -19,15 +19,24 @@ src/uknd/data/raw/**
 *.qgs~
 *.gpkg-wal
 *.gpkg-shm
+*.tif
+*.blend1
 
 # Model outputs and experiment artifacts
 models/*.pkl
 models/*.joblib
 checkpoints/
-outputs/
 runs/
 
 # OS/editor files
 .DS_Store
 Thumbs.db
 .vscode/
+*.xml
+
+src/uknd/align_ml_rasters.py
+src/uknd/*missing*
+src/uknd/*extract*
+src/uknd/*validate*
+
+data/processed/BG_A/*.json
