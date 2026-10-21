@@ -1,14 +1,15 @@
 # HimaDrishti: The Himalayan Eye 👁️
 ***Geospatial Intelligence for Himalayan Hazard Assessment***
 ---
-**A landslide susceptibility map for Uttarakhand, built from 5,512 recorded landslides, eight terrain and distance layers, and a lot GIS and ML workflows.**
+**A landslide susceptibility map for Uttarakhand, built from 5,512 recorded landslides, eight terrain and distance layers, and a lot of GIS + ML workflows.**
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/Model-XGBoost-189AB4)
 ![CRS](https://img.shields.io/badge/CRS-EPSG%3A32644-2E7D32)
 ![Status](https://img.shields.io/badge/Status-susceptibility%20model%20working-brightgreen)
 
-Hi, I'm Srijan. UKND started with a simple question: which slopes in Uttarakhand look like the ones where landslides have already happened? The first full version now answers it. It reads eight map layers, learns from recorded landslide locations, and paints the whole state with a susceptibility score. There is a 2D map set and a 3D Blender terrain scene too.
+Hi, I'm Srijan. During my last trek ( Summers, 2026 ) we were interrupted by frequent landslides & road blocks. That experience led to ***HimaDrishti*** ( previously UKNDip ).
+A simple question: from a birds-eye-view, which slopes in Uttarakhand look like the ones where landslides have already happened? The first full version now answers it. It reads eight map layers, learns from recorded landslide locations, and paints the whole state with a susceptibility score. There is a 2D map set and a 3D Blender terrain scene too.
 
 > [!IMPORTANT]
 > UKND is a research project for screening and exploring. It does not tell anyone when a landslide will happen. Please read the [limits](#what-the-results-do-not-say) before quoting any number from this page.
@@ -52,7 +53,7 @@ Two more PDFs sit in the same folder: the [land-cover map](outputs/image/uk_land
 
 ## Why this project
 
-Uttarakhand is steep young mountain country with heavy monsoon rain. Houses, roads and bridges sit on the same slopes that move. A single slide can cut a highway and leave villages hard to reach.
+Uttarakhand is a steep young mountain region with heavy monsoon rain. Houses, roads and bridges sit on the same slopes that move. A single slide can cut a highway and leave villages hard to reach.
 
 A few examples from official sources:
 
