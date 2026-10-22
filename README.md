@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="outputs/image/3D_landslide_susceptibility_map.gif" alt="3D landslide susceptibility map" width="720"/>
+
 # HimaDrishti: The Himalayan Eye 👁️
 ***Geospatial Intelligence for Himalayan Hazard Assessment***
 ---
@@ -8,7 +11,9 @@
 ![CRS](https://img.shields.io/badge/CRS-EPSG%3A32644-2E7D32)
 ![Status](https://img.shields.io/badge/Status-susceptibility%20model%20working-brightgreen)
 
+</div>
 Hi, I'm Srijan. During my last trek ( Summers, 2026 ) we were interrupted by frequent landslides & road blocks. That experience led to ***HimaDrishti*** ( previously UKNDip ).
+
 A simple question: from a birds-eye-view, which slopes in Uttarakhand look like the ones where landslides have already happened? The first full version now answers it. It reads eight map layers, learns from recorded landslide locations, and paints the whole state with a susceptibility score. There is a 2D map set and a 3D Blender terrain scene too.
 
 > [!IMPORTANT]
